@@ -1,0 +1,25 @@
+2025-11-20 09:32:36 - src.utils.logger - INFO - logger.py:165 - 📝 Logging initialized - Retention: 7 days
+2025-11-20 09:32:36 - src.utils.logger - INFO - logger.py:166 - 📂 INFO logs: logs/info
+2025-11-20 09:32:36 - src.utils.logger - INFO - logger.py:167 - 📂 ERROR logs: logs/error
+2025-11-20 09:32:36 - src.utils.logger - INFO - lifecycle.py:43 - Starting service...
+2025-11-20 09:32:36 - src.common.mariadb.database - INFO - database.py:140 - Database initialized successfully
+2025-11-20 09:32:36 - src.utils.logger - INFO - lifecycle.py:47 - Database connection available
+2025-11-20 09:32:37 - src.models.models - INFO - models.py:148 - YOLO backbone model loaded from /Users/goodsee/dongwon/models/yolo12n.pt
+2025-11-20 09:32:37 - src.models.models - INFO - models.py:148 - YOLO trained model loaded from /Users/goodsee/dongwon/models/best.pt
+2025-11-20 09:32:37 - src.utils.logger - INFO - lifecycle.py:54 - YOLO model loaded
+2025-11-20 09:32:37 - src.utils.logger - INFO - lifecycle.py:72 - Using remote VLM server: http://114.110.133.13:60005
+2025-11-20 09:32:37 - src.models.vlm_client - INFO - vlm_client.py:21 - VLM HTTP Client initialized: http://114.110.133.13:60005
+2025-11-20 09:32:37 - src.utils.logger - INFO - lifecycle.py:76 - Checking VLM server connection...
+2025-11-20 09:32:37 - src.models.vlm_client - INFO - vlm_client.py:39 - VLM server health check passed: {'status': 'ok', 'vlm_ready': True, 'service': 'VLM Model Server'}
+2025-11-20 09:32:37 - src.utils.logger - INFO - lifecycle.py:79 - VLM server connection verified (remote server mode)
+2025-11-20 09:32:37 - src.utils.logger - INFO - lifecycle.py:124 - GUI enabled via ENABLE_GUI=true
+2025-11-20 09:32:37 - src.utils.logger - INFO - gui.py:56 - GUI process started (pid=33252)
+2025-11-20 09:32:37 - src.utils.logger - INFO - lifecycle.py:130 - API endpoints ready: YOLO and VLM enabled
+2025-11-20 09:32:39 - src.utils.request_logger - INFO - request_logger.py:132 - 127.0.0.1 | "GET /health" | 200 | 0.86ms
+2025-11-20 09:33:01 - src.utils.logger - INFO - lifecycle.py:140 - Shutting down services
+2025-11-20 09:33:01 - src.utils.logger - INFO - gui.py:71 - Stopping GUI process (pid=33252)
+2025-11-20 09:33:01 - src.models.models - INFO - models.py:168 - Unloading YOLO models...
+2025-11-20 09:33:01 - src.models.models - INFO - models.py:175 - YOLO backbone model unloaded
+2025-11-20 09:33:01 - src.models.models - INFO - models.py:175 - YOLO trained model unloaded
+2025-11-20 09:33:01 - src.models.models - INFO - models.py:178 - YOLO models unloaded
+2025-11-20 09:33:01 - src.utils.logger - INFO - lifecycle.py:165 - Shutdown complete

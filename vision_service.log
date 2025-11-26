@@ -1,0 +1,4 @@
+2025-10-21 15:53:50,097 - INFO - AI 서비스 시작 중...
+2025-10-21 15:53:50,124 - INFO - 백본 모델 로드 완료: YOLO12n
+2025-10-21 15:53:50,201 - INFO - 학습된 모델 로드 완료: /Users/goodsee/dongwon/yolo_dataset/runs/detect/train/weights/best.pt
+2025-10-21 15:53:50,201 - INFO - 서비스 초기화 완료
