@@ -1,9 +1,0 @@
-Alembic 마이그레이션 디렉토리
-
-이 디렉토리는 데이터베이스 스키마 변경 이력을 관리합니다.
-
-사용법:
-- 마이그레이션 생성: alembic revision --autogenerate -m "메시지"
-- 마이그레이션 적용: alembic upgrade head
-- 마이그레이션 되돌리기: alembic downgrade -1
-
